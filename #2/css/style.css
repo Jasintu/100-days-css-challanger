@@ -110,3 +110,41 @@ body{
         transform: rotate(-45deg);
     }
 }
+
+@keyframes animation3L {
+    0% {
+        top: 50%;
+        left: 38%;
+        transform: rotate(45deg);
+    } 
+    100% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        top: 44%;
+        left: 38%;
+        transform: translate(-50%, -50%);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes animation3R {
+    0% {
+        top: 50%;
+        left: 38%;
+        transform: rotate(-45deg);
+    } 
+    50% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        top: 56%;
+        left: 38%;
+        transform: translate(-50%, -50%);
+        transform: rotate(-180deg);
+    }
+}
