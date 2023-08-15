@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(241, 63, 63);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
+    animation: circle1 6s infinite;
+}
+
+.circle2{
+    box-shadow: 5px 5px 5px black;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    animation: circle2 6s infinite;
+}
+
+.circle3{
+    box-shadow: 5px 5px 5px black;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    animation: circle3 6s infinite;
+}
+
+@keyframes circle1 {
+    0%{
+        width: 0px;
+        height: 0px;
+    }50%{
+        width: 200px;
+        height: 200px;
+    }75%{
+        width: 200px;
+        height: 200px;
+    }100%{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@keyframes circle2 {
+    0%{
+        width: 0px;
+        height: 0px;
+    }25%{
+        width: 0px;
+        height: 0px;
+    }40%{
+        width: 150px;
+        height: 150px;
+    }60%{
+        width: 150px;
+        height: 150px;
+    }100%{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@keyframes circle3 {
+    0%{
+        width: 0px;
+        height: 0px;
+    }35%{
+        width: 0px;
+        height: 0px;
+    }40%{
+        width: 100px;
+        height: 100px;
+    }60%{
+        width: 100px;
+        height: 100px;
+    }80%{
+        width: 0px;
+        height: 0px;
+    }100%{
+        width: 0px;
+        height: 0px;
+    }
+}
