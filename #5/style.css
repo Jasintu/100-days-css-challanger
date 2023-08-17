@@ -233,3 +233,130 @@
     height: 10px;
     background-color: red;
 }
+
+#one2{
+    margin-top: 140px;
+    margin-left: 23px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(63, 66, 243);
+}
+
+#onetwo2{
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: rgb(63, 66, 243);
+    margin-left: 18px;
+    margin-top: -25px;
+    rotate: -42deg;
+}
+
+#two2{
+    margin-top: -50px;
+    margin-left: 67px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(63, 66, 243);
+}
+
+#twothree2{
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: rgb(63, 66, 243);
+    margin-left: 52px;
+    margin-top: -43px;
+    rotate: -59deg;
+}
+
+#three2{
+    margin-top: -80px;
+    margin-left: 107px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(63, 66, 243);
+}
+
+#threefour2{
+    position: absolute;
+    width: 65px;
+    height: 2px;
+    background-color: rgb(63, 66, 243);
+    margin-left: 105px;
+    margin-top: 20px;
+    rotate: 48deg;  
+}
+
+#four2{
+    margin-top: 40px;
+    margin-left: 153px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(63, 66, 243);
+}
+
+#fourfive2{
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(63, 66, 243);
+    margin-left: 150px;
+    margin-top: 6px;
+    rotate: 37deg;  
+}
+
+#five2{
+    margin-top: 20px;
+    margin-left: 193px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(63, 66, 243);
+}
+
+#fivesix2{
+    position: absolute;
+    width: 65px;
+    height: 2px;
+    background-color: rgb(63, 66, 243);
+    margin-left: 183px;
+    margin-top: -32px;
+    rotate: -55deg;  
+}
+
+#six2{
+    margin-top: -60px;
+    margin-left: 228px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(63, 66, 243);
+}
+
+#sixseven2{
+    position: absolute;
+    width: 58px;
+    height: 2px;
+    background-color: rgb(63, 66, 243);
+    margin-left: 223px;
+    margin-top: 8px;
+    rotate: 36deg;  
+}
+
+#seven2{
+    margin-top: 20px;
+    margin-left: 270px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(63, 66, 243);
+}
+
+#blues{
+    margin-top: -130px;
+}
