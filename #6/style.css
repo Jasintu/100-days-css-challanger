@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg,  rgb(208, 138, 89), rgb(230, 178, 109));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.statistc{
+    margin-left: 250px;
+}
+
+.post{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    margin-left: -50px;
+    text-align: center;
+    color: rgb(102, 101, 101);
+    transition: all .3s ease-in-out;
+}
+
+.post:hover{
+    background-color: rgb(223, 196, 164);
+    cursor: pointer;
+}
+
+p{
+   padding-top: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+}
+
+.profile{
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name{
+    justify-content: center;
+    word-wrap: break-word;
+    position: absolute;
+    border-radius: 50%;
+    top: 43%;
+    left: 54%;
+    width: 100px;
+    transform: translate(-50%, -50%);
+    color: rgb(102, 101, 101);
+}
+
+#profission{
+    font-size: 12px;
+    margin-left: 13px;
+}
+
+.buttons{
+    justify-content: center;
+    word-wrap: break-word;
+    position: absolute;
+    border-radius: 50%;
+    top: 73%;
+    left: 44%;
+    width: 100px;
+    transform: translate(-50%, -50%);
+    color: rgb(102, 101, 101);
+}
+
+#follow {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(102, 101, 101);
+    color: rgb(102, 101, 101);
+    background-color: bisque;
+    transition: all .3s ease-in-out;
+    font-size: 12px;
+}
+
+#message {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(102, 101, 101);
+    color: rgb(102, 101, 101);
+    background-color: bisque;
+    transition: all .3s ease-in-out;
+    font-size: 12px;
+}
+
+#follow:hover{
+    color: white;
+    background-color: rgba(145, 69, 69, 0.822);
+}
+
+#message:hover{
+    color: white;
+    background-color: rgba(145, 69, 69, 0.822);
+}
+
+.circle1{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(102, 101, 101);
+    animation: profile 1s infinite;
+}
+
+.circle2{
+    border: 1px solid rgb(102, 101, 101);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10.5%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    animation: profile 1s infinite;
+}
+
+span{
+    font-size: 12px;
+}
+
+@keyframes profile{
+    0%{
+        transform: rotateX(0deg);
+    }100%{
+        transform: rotateX(360deg);
+    }
+}
